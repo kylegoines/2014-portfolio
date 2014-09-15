@@ -1,3 +1,7 @@
+body{
+	background-color: $secondary;
+}
+
 .container{
 	@include container(1200px);
 }
