@@ -78,7 +78,7 @@ table {
     display: block;
     clear: both; }
 
-h1, h2, h3, h4, h5, h6, a, li, p {
+h1, h2, h3, h4, h5, h6, a, li, p, span {
   font-family: "brandon_grotesque_regularRg", "Helvetica Neue", sans-serif;
   font-weight: normal;
   color: #262626; }
@@ -94,6 +94,31 @@ h2 {
   font-family: "brandon_grotesquelight", "Helvetica Neue", sans-serif;
   font-size: 58px;
   line-height: 93.96px; }
+
+.contact h3, .contact a {
+  font-size: 19px;
+  line-height: 23px;
+  color: white;
+  font-family: "brandon_grotesquebold", "Helvetica Neue", sans-serif; }
+.contact a {
+  line-height: 0px;
+  font-weight: normal;
+  text-decoration: none;
+  padding-left: 4px; }
+  .contact a:target, .contact a:hover {
+    text-decoration: underline; }
+.contact ul {
+  height: 42px;
+  margin-left: 15px;
+  border-left: 5px solid white; }
+.contact li {
+  margin-top: 10px;
+  margin-left: 4px; }
+  .contact li:first-child {
+    margin-top: 4px; }
+
+.divider {
+  font-family: "brandon_grotesquebold", "Helvetica Neue", sans-serif; }
 
 .module h2 {
   font-family: "brandon_grotesquebold", "Helvetica Neue", sans-serif;
@@ -120,4 +145,41 @@ h2 {
 
 header {
   overflow: hidden;
-  background-color: #ffa886; }
+  background-color: #ffa886;
+  position: relative; }
+  header h1, header h2 {
+    text-align: center; }
+  header h1 {
+    margin-top: 40px; }
+  header h2 {
+    margin-bottom: 50px; }
+  header .contact {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+
+.divider {
+  margin: 50px 0;
+  width: 100%;
+  position: relative; }
+  .divider hr {
+    border: 0;
+    border-top: 1px solid #bebebe; }
+  .divider div {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .divider span {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    top: -12px;
+    font-size: 27px;
+    font-family: "brandon_grotesquebold", "Helvetica Neue", sans-serif; }

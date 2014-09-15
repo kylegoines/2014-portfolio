@@ -1,4 +1,49 @@
 header{
 	overflow: hidden;
-	background-color: $primary;	
+	background-color: $primary;
+	position: relative;
+	h1,h2{
+		text-align: center;
+	}
+
+	h1{
+		margin-top: 40px;
+	}
+
+	h2{
+		margin-bottom: 50px;
+	}
+
+	.contact{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
+
+.divider{
+	margin: 50px 0;
+	width: 100%;
+	position: relative;
+	hr{
+	 border: 0; border-top: 1px solid #bebebe;
+
+	}
+	div{
+		text-align: center;
+		width: 50%;
+		height: 50%;
+		display: block;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+	}
+	span{
+		background-color: white;
+		padding: 10px;
+		position: relative;
+		top: -12px;
+		font-size: 27px;
+		font-family: $font-bold;
+	}
 }
