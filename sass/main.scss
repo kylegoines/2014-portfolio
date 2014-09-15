@@ -1,3 +1,7 @@
-p{
-	color: red;
-}
+@import "partials/reset";
+@import "susy";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/settings";
+@import "partials/typography";
+@import "partials/header";

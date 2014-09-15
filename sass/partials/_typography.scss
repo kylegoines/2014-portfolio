@@ -1,0 +1,59 @@
+h1,h2,h3,h4,h5,h6,a,li,p{
+	font-family: $font-regular;
+	font-weight: normal;
+	color: $fontColor;
+}
+
+h1{
+	color: white;
+	font-family: $font-regular;
+	font-size: 58px;
+	line-height: 93.96px;
+}
+
+h2{
+
+	color: white;
+	font-family: $font-light;
+	font-size: 58px;
+	line-height: 93.96px;
+}
+
+
+//////////////////////////////////////////////////////////
+///  module typography
+/////////////////////////////////////////////////////////
+
+.module{
+	
+	h2{
+		font-family: $font-bold;
+		font-size: 27px;
+		color: $fontColor;
+		line-height: 32px;
+	}
+	h3{
+		font-family: $font-bold-oblique;
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	p{
+		font-size: 24px;
+		font-family: $font-bold;
+		line-height: 28px;
+	}
+
+	a{
+		line-height: 28px;
+		font-family: $font-bold;
+		font-size: 24px;
+		color: $primary;
+		text-decoration: none;
+		&:target,&:hover{
+			text-decoration: underline;
+			color: darken($primary, 10%);
+		}
+	}
+
+}
