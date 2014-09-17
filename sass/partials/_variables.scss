@@ -16,3 +16,17 @@ $font-regular: "brandon_grotesque_regularRg", "Helvetica Neue", sans-serif;
 $font-light: "brandon_grotesquelight", "Helvetica Neue", sans-serif;
 $font-bold: "brandon_grotesquebold", "Helvetica Neue", sans-serif;
 $font-bold-oblique: "brandon_grotesquebold_italic", "Helvetica Neue", sans-serif;
+
+
+
+@mixin breakpoint($point) {
+  @if $point == papa-bear {
+    @media (max-width: 1000px) { @content; }
+  }
+  @else if $point == contact-head {
+    @media (max-width: 750px) { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 350px) { @content; }
+  }
+}

@@ -33,12 +33,40 @@
 	}
 
 	p{
+		padding-top: 10px;
 		padding-left: 30px;
 		padding-right: 20px;
+		&:first-child{
+			padding-top: 0;
+		}
 	}
 
 	a{
-		margin-top: 30px;
-		float: right;
+		position: relative;
+		top: 10px;
+		margin-left: 30px;
+	}
+}
+
+
+@include breakpoint(papa-bear){
+
+
+	.col-2{
+		.sub-img, .info{
+			@include span(12 of 12);
+			&:nth-child(2n){
+				@include span(12 of 12);
+			}
+		}
+
+		.sub-img{
+			display: none;
+		}
+
+		.info{
+			margin-top: 30px;
+		}
+
 	}
 }

@@ -4,4 +4,11 @@ body{
 
 .container{
 	@include container(1200px);
+	padding: 10px;
+}
+
+
+.module-divider{
+	border: 0; border-top: 1px solid $primary;
+	margin: 100px 0;
 }

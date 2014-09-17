@@ -47,3 +47,26 @@ header{
 		font-family: $font-bold;
 	}
 }
+
+@include breakpoint(contact-head){
+	header{
+		h1,h2{
+			line-height: 61px;
+			font-size: 48px;
+		}
+		.contact{
+			ul{
+				display: none;
+			}
+		}
+	}
+}
+
+@include breakpoint(mobile){
+	header{
+		h1,h2{
+			font-size: 34px;
+			line-height: 44px;
+		}
+	}
+}
