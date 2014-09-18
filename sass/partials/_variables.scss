@@ -26,7 +26,10 @@ $font-bold-oblique: "brandon_grotesquebold_italic", "Helvetica Neue", sans-serif
   @else if $point == contact-head {
     @media (max-width: 750px) { @content; }
   }
+    @else if $point == img-set {
+    @media (max-width: 950px) { @content; }
+  }
   @else if $point == mobile {
-    @media (max-width: 350px) { @content; }
+    @media (max-width: 450px) { @content; }
   }
 }
