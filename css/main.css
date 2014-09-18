@@ -208,6 +208,11 @@ header {
   width: 100%;
   display: block;
   margin: 50px auto; }
+.module .screen img {
+  max-width: 800px;
+  display: block;
+  margin: 50px auto;
+  width: 100%; }
 
 .col-2 {
   max-width: 100%;
@@ -244,6 +249,28 @@ header {
     position: relative;
     top: 10px;
     margin-left: 30px; }
+
+.col-1 .info {
+  margin-top: 70px; }
+.col-1 .paras {
+  border-left: 5px solid #ffa886;
+  margin-left: 30px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+  max-width: 800px; }
+.col-1 p {
+  min-width: 300px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px; }
+  .col-1 p:first-child {
+    padding-top: 0; }
+.col-1 a {
+  position: relative;
+  margin: 30px 0;
+  display: block;
+  text-align: center; }
 
 @media (max-width: 1000px) {
   .col-2 .sub-img, .col-2 .info {
