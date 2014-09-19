@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kyle Goines, designer, developer. @kylegoines
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    HTML5, CSS3, SASS, Javascript, Love
