@@ -87,6 +87,23 @@ body {
   border-top: 1px solid #ffa886;
   margin: 100px 0; }
 
+.alertMe {
+  -webkit-animation: alertAnimation 1s; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes alertAnimation {
+  15% {
+    color: #ffa886; }
+
+  100% {
+    color: white; } }
+/* Standard syntax */
+@keyframes alertAnimation {
+  15% {
+    color: #ffa886; }
+
+  100% {
+    color: white; } }
 h1, h2, h3, h4, h5, h6, a, li, p, span {
   font-family: "brandon_grotesque_regularRg", "Helvetica Neue", sans-serif;
   font-weight: normal;
@@ -103,6 +120,12 @@ h2 {
   font-family: "brandon_grotesquelight", "Helvetica Neue", sans-serif;
   font-size: 58px;
   line-height: 93.96px; }
+
+h4 {
+  line-height: 62px;
+  color: white;
+  font-family: "brandon_grotesquebold", "Helvetica Neue", sans-serif;
+  font-size: 32px; }
 
 .contact h3, .contact a {
   font-size: 19px;
@@ -315,3 +338,22 @@ header {
 
   .col-1 p, .col-2 p {
     padding-left: 20px; } }
+footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  background: #262626;
+  padding-top: 20px; }
+  footer:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  footer .contact {
+    margin-bottom: 20px;
+    margin-left: 30px; }
+    footer .contact ul {
+      border-color: #ffa886; }
+  footer h4 {
+    margin-left: 30px;
+    padding-bottom: 20px; }
