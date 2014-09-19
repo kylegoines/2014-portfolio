@@ -297,11 +297,8 @@ header {
     margin-top: 43px; }
   .col-1 .paras {
     border-left: 5px solid #ffa886;
-    margin-left: 30px;
-    margin: 0 auto;
-    width: 100%;
-    min-width: 300px;
-    max-width: 800px; }
+    width: 80%;
+    margin: 0 auto; }
   .col-1 p {
     min-width: 300px;
     padding-top: 10px;
@@ -328,7 +325,19 @@ header {
   .col-2 .sub-img {
     display: none; }
   .col-2 .info {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .col-1 .info {
+    float: left;
+    margin-left: 30px; }
+  .col-1 .paras {
+    float: left;
+    margin-left: 30px;
+    width: 100%;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
 @media (max-width: 950px) {
   .module .img-set img {
     width: 100%; } }
