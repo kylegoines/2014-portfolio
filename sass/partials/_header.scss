@@ -31,7 +31,7 @@ header{
 	}
 	div{
 		text-align: center;
-		width: 50%;
+		width: 25%;
 		height: 50%;
 		display: block;
 		margin: auto;
@@ -40,7 +40,8 @@ header{
 	}
 	span{
 		background-color: $secondary;
-		padding: 10px;
+		display: block;
+		
 		position: relative;
 		top: -12px;
 		font-size: 27px;
@@ -68,5 +69,14 @@ header{
 			font-size: 34px;
 			line-height: 44px;
 		}
+	}
+	.divider{
+		div{
+			width: 19%;
+		}
+		span{
+			display: block;
+		}
+
 	}
 }

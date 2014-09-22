@@ -199,7 +199,7 @@ header {
     border-top: 1px solid #bebebe; }
   .divider div {
     text-align: center;
-    width: 50%;
+    width: 25%;
     height: 50%;
     display: block;
     margin: auto;
@@ -210,7 +210,7 @@ header {
     right: 0; }
   .divider span {
     background-color: #edede8;
-    padding: 10px;
+    display: block;
     position: relative;
     top: -12px;
     font-size: 27px;
@@ -225,7 +225,12 @@ header {
 @media (max-width: 450px) {
   header h1, header h2 {
     font-size: 34px;
-    line-height: 44px; } }
+    line-height: 44px; }
+
+  .divider div {
+    width: 19%; }
+  .divider span {
+    display: block; } }
 .module .hero img {
   max-width: 826px;
   width: 100%;
@@ -329,7 +334,7 @@ header {
 
   .col-1 .info {
     float: left;
-    margin-left: 30px; }
+    margin: 30px; }
   .col-1 .paras {
     float: left;
     margin-left: 30px;
